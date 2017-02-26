@@ -1,0 +1,522 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Expression"
+- "InfixOperator"
+- "PrefixOperator"
+- "StaticExpression"
+- "VariableExpression"
+- "NotExpression"
+- "OrExpression"
+- "AndExpression"
+- "EqualityExpression"
+- "NumericExpression"
+- "MoreThanExpression"
+- "MoreThanEqualExpression"
+- "LessThanExpression"
+- "LessThanEqualExpression"
+- "InequalityExpression"
+- "toNumber"
+provides-nominal:
+- "P7Stencil10Expression"
+- "P7Stencil13InfixOperator"
+- "P7Stencil14PrefixOperator"
+- "C7Stencil16StaticExpression"
+- "C7Stencil18VariableExpression"
+- "C7Stencil13NotExpression"
+- "C7Stencil12OrExpression"
+- "C7Stencil13AndExpression"
+- "C7Stencil18EqualityExpression"
+- "C7Stencil17NumericExpression"
+- "C7Stencil18MoreThanExpression"
+- "C7Stencil23MoreThanEqualExpression"
+- "C7Stencil18LessThanExpression"
+- "C7Stencil23LessThanEqualExpression"
+- "C7Stencil20InequalityExpression"
+provides-member:
+- ["P7Stencil10Expression", ""]
+- ["P7Stencil13InfixOperator", ""]
+- ["P7Stencil14PrefixOperator", ""]
+- ["C7Stencil16StaticExpression", ""]
+- ["C7Stencil18VariableExpression", ""]
+- ["C7Stencil13NotExpression", ""]
+- ["C7Stencil12OrExpression", ""]
+- ["C7Stencil13AndExpression", ""]
+- ["C7Stencil18EqualityExpression", ""]
+- ["C7Stencil17NumericExpression", ""]
+- ["C7Stencil18MoreThanExpression", ""]
+- ["C7Stencil23MoreThanEqualExpression", ""]
+- ["C7Stencil18LessThanExpression", ""]
+- ["C7Stencil23LessThanEqualExpression", ""]
+- ["C7Stencil20InequalityExpression", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "PrefixOperator"
+- "Float80"
+- !private "Float64"
+- !private "StringLiteralType"
+- !private "UInt"
+- !private ">="
+- "Context"
+- "OrExpression"
+- "LessThanEqualExpression"
+- "LessThanExpression"
+- "MoreThanEqualExpression"
+- !private "Int64"
+- "NotExpression"
+- "EqualityExpression"
+- !private "BooleanLiteralType"
+- !private "Float"
+- "StaticExpression"
+- !private "UInt8"
+- "InfixOperator"
+- !private "!"
+- "VariableExpression"
+- "AndExpression"
+- !private "<="
+- !private "UInt32"
+- "InequalityExpression"
+- !private "Int16"
+- "toNumber"
+- !private "&&"
+- !private "Int32"
+- "Variable"
+- !private "UnicodeScalarType"
+- !private "Int"
+- "Expression"
+- "CustomStringConvertible"
+- "String"
+- !private "Int8"
+- !private "UInt64"
+- !private ">"
+- "NumericExpression"
+- "MoreThanExpression"
+- !private "Double"
+- !private "!="
+- !private "UInt16"
+- !private "Float32"
+- "CastingPrecedence"
+- !private "<"
+- "AssignmentPrecedence"
+- !private "=="
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- ["C7Stencil13AndExpression", "Bool"]
+- ["C7Stencil13AndExpression", "Context"]
+- ["C7Stencil13AndExpression", "Expression"]
+- ["C7Stencil13AndExpression", "String"]
+- ["C7Stencil13AndExpression", "deinit"]
+- ["C7Stencil13AndExpression", "description"]
+- ["C7Stencil13AndExpression", "evaluate"]
+- ["C7Stencil13AndExpression", "init"]
+- ["C7Stencil13AndExpression", "lhs"]
+- ["C7Stencil13AndExpression", "rhs"]
+- ["Ps9AnyObject", "compare"]
+- ["Ps9AnyObject", "description"]
+- ["Ps9AnyObject", "evaluate"]
+- !private ["Ps9AnyObject", "expression"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "lhs"]
+- ["Ps9AnyObject", "op"]
+- !private ["Ps9AnyObject", "resolve"]
+- !private ["Ps9AnyObject", "rhs"]
+- !private ["Ps9AnyObject", "toNumber"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["Ps9AnyObject", "variable"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "deinit"]
+- !private ["Sa", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Ps22BidirectionalIndexable", "isEmpty"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "isEmpty"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- ["C7Stencil7Context", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- ["Ps23CustomStringConvertible", "Bool"]
+- ["Ps23CustomStringConvertible", "Context"]
+- ["Ps23CustomStringConvertible", "Expression"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "compare"]
+- ["Ps23CustomStringConvertible", "description"]
+- ["Ps23CustomStringConvertible", "evaluate"]
+- !private ["Ps23CustomStringConvertible", "expression"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "lhs"]
+- ["Ps23CustomStringConvertible", "op"]
+- !private ["Ps23CustomStringConvertible", "resolve"]
+- !private ["Ps23CustomStringConvertible", "rhs"]
+- !private ["Ps23CustomStringConvertible", "toNumber"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Ps23CustomStringConvertible", "variable"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "isEmpty"]
+- ["Sd", "deinit"]
+- ["C7Stencil18EqualityExpression", "Bool"]
+- ["C7Stencil18EqualityExpression", "Context"]
+- ["C7Stencil18EqualityExpression", "Expression"]
+- ["C7Stencil18EqualityExpression", "String"]
+- !private ["C7Stencil18EqualityExpression", "VariableExpression"]
+- ["C7Stencil18EqualityExpression", "deinit"]
+- ["C7Stencil18EqualityExpression", "description"]
+- ["C7Stencil18EqualityExpression", "evaluate"]
+- ["C7Stencil18EqualityExpression", "init"]
+- ["C7Stencil18EqualityExpression", "lhs"]
+- ["C7Stencil18EqualityExpression", "rhs"]
+- !private ["C7Stencil18EqualityExpression", "toNumber"]
+- ["C7Stencil18EqualityExpression", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEmpty"]
+- !private ["Ps9Equatable", "resolve"]
+- !private ["Ps9Equatable", "variable"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "isEmpty"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "isEmpty"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
+- ["P7Stencil10Expression", "Bool"]
+- ["P7Stencil10Expression", "Context"]
+- ["P7Stencil10Expression", "Expression"]
+- ["P7Stencil10Expression", "compare"]
+- ["P7Stencil10Expression", "deinit"]
+- ["P7Stencil10Expression", "description"]
+- ["P7Stencil10Expression", "evaluate"]
+- !private ["P7Stencil10Expression", "expression"]
+- ["P7Stencil10Expression", "init"]
+- !private ["P7Stencil10Expression", "lhs"]
+- ["P7Stencil10Expression", "op"]
+- !private ["P7Stencil10Expression", "resolve"]
+- !private ["P7Stencil10Expression", "rhs"]
+- !private ["P7Stencil10Expression", "toNumber"]
+- !private ["P7Stencil10Expression", "value"]
+- !private ["P7Stencil10Expression", "variable"]
+- ["P7Stencil10Expression", ""]
+- ["Sf", "deinit"]
+- ["Vs7Float80", "deinit"]
+- !private ["Vs7Float80", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEmpty"]
+- !private ["Ps9Indexable", "isEmpty"]
+- !private ["Ps13IndexableBase", "isEmpty"]
+- ["C7Stencil20InequalityExpression", "Bool"]
+- ["C7Stencil20InequalityExpression", "Context"]
+- ["C7Stencil20InequalityExpression", "String"]
+- ["C7Stencil20InequalityExpression", "deinit"]
+- ["C7Stencil20InequalityExpression", "description"]
+- ["C7Stencil20InequalityExpression", "evaluate"]
+- ["C7Stencil20InequalityExpression", "init"]
+- !private ["C7Stencil20InequalityExpression", "lhs"]
+- !private ["C7Stencil20InequalityExpression", "rhs"]
+- ["P7Stencil13InfixOperator", "Expression"]
+- ["P7Stencil13InfixOperator", "compare"]
+- ["P7Stencil13InfixOperator", "description"]
+- ["P7Stencil13InfixOperator", "evaluate"]
+- ["P7Stencil13InfixOperator", "init"]
+- !private ["P7Stencil13InfixOperator", "lhs"]
+- ["P7Stencil13InfixOperator", "op"]
+- !private ["P7Stencil13InfixOperator", "rhs"]
+- !private ["P7Stencil13InfixOperator", "toNumber"]
+- ["P7Stencil13InfixOperator", ""]
+- ["Si", "deinit"]
+- ["Vs5Int16", "deinit"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int64", "deinit"]
+- ["Vs4Int8", "deinit"]
+- ["C7Stencil23LessThanEqualExpression", "Bool"]
+- ["C7Stencil23LessThanEqualExpression", "Float80"]
+- ["C7Stencil23LessThanEqualExpression", "String"]
+- ["C7Stencil23LessThanEqualExpression", "compare"]
+- ["C7Stencil23LessThanEqualExpression", "deinit"]
+- ["C7Stencil23LessThanEqualExpression", "init"]
+- ["C7Stencil23LessThanEqualExpression", "op"]
+- ["C7Stencil18LessThanExpression", "Bool"]
+- ["C7Stencil18LessThanExpression", "Float80"]
+- ["C7Stencil18LessThanExpression", "String"]
+- ["C7Stencil18LessThanExpression", "compare"]
+- ["C7Stencil18LessThanExpression", "deinit"]
+- ["C7Stencil18LessThanExpression", "init"]
+- ["C7Stencil18LessThanExpression", "op"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isEmpty"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isEmpty"]
+- ["C7Stencil23MoreThanEqualExpression", "Bool"]
+- ["C7Stencil23MoreThanEqualExpression", "Float80"]
+- ["C7Stencil23MoreThanEqualExpression", "String"]
+- ["C7Stencil23MoreThanEqualExpression", "compare"]
+- ["C7Stencil23MoreThanEqualExpression", "deinit"]
+- ["C7Stencil23MoreThanEqualExpression", "init"]
+- ["C7Stencil23MoreThanEqualExpression", "op"]
+- ["C7Stencil18MoreThanExpression", "Bool"]
+- ["C7Stencil18MoreThanExpression", "Float80"]
+- ["C7Stencil18MoreThanExpression", "String"]
+- ["C7Stencil18MoreThanExpression", "compare"]
+- ["C7Stencil18MoreThanExpression", "deinit"]
+- ["C7Stencil18MoreThanExpression", "init"]
+- ["C7Stencil18MoreThanExpression", "op"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps16MutableIndexable", "isEmpty"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["P7Stencil12Normalizable", "isEmpty"]
+- ["C7Stencil13NotExpression", "Bool"]
+- ["C7Stencil13NotExpression", "Context"]
+- ["C7Stencil13NotExpression", "Expression"]
+- ["C7Stencil13NotExpression", "String"]
+- ["C7Stencil13NotExpression", "deinit"]
+- ["C7Stencil13NotExpression", "description"]
+- ["C7Stencil13NotExpression", "evaluate"]
+- ["C7Stencil13NotExpression", "expression"]
+- ["C7Stencil13NotExpression", "init"]
+- ["C7Stencil17NumericExpression", "Bool"]
+- ["C7Stencil17NumericExpression", "Context"]
+- ["C7Stencil17NumericExpression", "Expression"]
+- ["C7Stencil17NumericExpression", "Float80"]
+- ["C7Stencil17NumericExpression", "String"]
+- !private ["C7Stencil17NumericExpression", "VariableExpression"]
+- ["C7Stencil17NumericExpression", "compare"]
+- ["C7Stencil17NumericExpression", "deinit"]
+- ["C7Stencil17NumericExpression", "description"]
+- ["C7Stencil17NumericExpression", "evaluate"]
+- ["C7Stencil17NumericExpression", "init"]
+- ["C7Stencil17NumericExpression", "lhs"]
+- ["C7Stencil17NumericExpression", "op"]
+- ["C7Stencil17NumericExpression", "rhs"]
+- !private ["C7Stencil17NumericExpression", "toNumber"]
+- ["C7Stencil17NumericExpression", ""]
+- ["Sq", "deinit"]
+- ["C7Stencil12OrExpression", "Bool"]
+- ["C7Stencil12OrExpression", "Context"]
+- ["C7Stencil12OrExpression", "Expression"]
+- ["C7Stencil12OrExpression", "String"]
+- ["C7Stencil12OrExpression", "deinit"]
+- ["C7Stencil12OrExpression", "description"]
+- ["C7Stencil12OrExpression", "evaluate"]
+- ["C7Stencil12OrExpression", "init"]
+- ["C7Stencil12OrExpression", "lhs"]
+- ["C7Stencil12OrExpression", "rhs"]
+- ["P7Stencil14PrefixOperator", "Expression"]
+- ["P7Stencil14PrefixOperator", "description"]
+- ["P7Stencil14PrefixOperator", "evaluate"]
+- !private ["P7Stencil14PrefixOperator", "expression"]
+- ["P7Stencil14PrefixOperator", "init"]
+- ["P7Stencil14PrefixOperator", ""]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps21RandomAccessIndexable", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps25RangeReplaceableIndexable", "isEmpty"]
+- !private ["P7Stencil10Resolvable", "resolve"]
+- !private ["P7Stencil10Resolvable", "variable"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["Ps12SignedNumber", "init"]
+- ["C7Stencil16StaticExpression", "Bool"]
+- ["C7Stencil16StaticExpression", "Context"]
+- ["C7Stencil16StaticExpression", "String"]
+- ["C7Stencil16StaticExpression", "deinit"]
+- ["C7Stencil16StaticExpression", "description"]
+- ["C7Stencil16StaticExpression", "evaluate"]
+- ["C7Stencil16StaticExpression", "init"]
+- ["C7Stencil16StaticExpression", "value"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isEmpty"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isEmpty"]
+- ["Su", "deinit"]
+- ["Vs6UInt16", "deinit"]
+- ["Vs6UInt32", "deinit"]
+- ["Vs6UInt64", "deinit"]
+- ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- ["V7Stencil8Variable", "deinit"]
+- !private ["V7Stencil8Variable", "resolve"]
+- !private ["V7Stencil8Variable", "variable"]
+- ["C7Stencil18VariableExpression", "Bool"]
+- ["C7Stencil18VariableExpression", "Context"]
+- ["C7Stencil18VariableExpression", "String"]
+- ["C7Stencil18VariableExpression", "Variable"]
+- ["C7Stencil18VariableExpression", "deinit"]
+- ["C7Stencil18VariableExpression", "description"]
+- ["C7Stencil18VariableExpression", "evaluate"]
+- ["C7Stencil18VariableExpression", "init"]
+- ["C7Stencil18VariableExpression", "resolve"]
+- !private ["C7Stencil18VariableExpression", "toNumber"]
+- ["C7Stencil18VariableExpression", "variable"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "C7Stencil13AndExpression"
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps19BinaryFloatingPoint"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "C7Stencil7Context"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Sd"
+- "C7Stencil18EqualityExpression"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P7Stencil10Expression"
+- "Sf"
+- "Vs7Float80"
+- !private "Ps13FloatingPoint"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "C7Stencil20InequalityExpression"
+- "P7Stencil13InfixOperator"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
+- "C7Stencil23LessThanEqualExpression"
+- "C7Stencil18LessThanExpression"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "C7Stencil23MoreThanEqualExpression"
+- "C7Stencil18MoreThanExpression"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P7Stencil12Normalizable"
+- "C7Stencil13NotExpression"
+- "C7Stencil17NumericExpression"
+- "Sq"
+- "C7Stencil12OrExpression"
+- "P7Stencil14PrefixOperator"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "P7Stencil10Resolvable"
+- !private "Ps8Sequence"
+- !private "Ps12SignedNumber"
+- "C7Stencil16StaticExpression"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Su"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Vs5UInt8"
+- !private "Sc"
+- "V7Stencil8Variable"
+- "C7Stencil18VariableExpression"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Vs26_OptionalNilComparisonType"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lambert/Desktop/demo/DerivedData/demo1/Build/Products/Debug/PathKit.framework/Modules/PathKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "f543963f2f5c8013a46ae0fe7929b704"

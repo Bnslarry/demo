@@ -1,0 +1,20 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "1e6c66e53fef214894b9196627f8c49e"
+build_time: [541318683, 398355000]
+inputs:
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/Context.swift": [541316990, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/Expression.swift": [541316990, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/Filters.swift": [541316990, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/ForTag.swift": [541316987, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/IfTag.swift": [541316990, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/Include.swift": [541316990, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/Inheritence.swift": [541316990, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/Lexer.swift": [541316987, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/Namespace.swift": [541316990, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/Node.swift": [541316990, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/NowTag.swift": [541316987, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/Parser.swift": [541316990, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/Template.swift": [541316990, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/TemplateLoader.swift": [541316990, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/Tokenizer.swift": [541316987, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Stencil-0.7.2/Sources/Variable.swift": [541316990, 0]

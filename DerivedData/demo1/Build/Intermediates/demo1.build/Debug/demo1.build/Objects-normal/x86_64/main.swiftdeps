@@ -1,0 +1,293 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "router"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "UnicodeScalarType"
+- "Dictionary"
+- "Router"
+- "StencilTemplateEngine"
+- "StringLiteralType"
+- "router"
+- "String"
+- "AssignmentPrecedence"
+- "HeliumLogger"
+- "IntegerLiteralType"
+- "Kitura"
+- "FloatLiteralType"
+depends-member:
+- ["Ps9AnyObject", "addHTTPServer"]
+- ["Ps9AnyObject", "get"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "parameters"]
+- ["Ps9AnyObject", "render"]
+- ["Ps9AnyObject", "run"]
+- ["Ps9AnyObject", "setDefault"]
+- ["Ps9AnyObject", "use"]
+- ["Sa", "deinit"]
+- ["Ps7CVarArg", "Index"]
+- ["Ps7CVarArg", "Iterator"]
+- ["Ps7CVarArg", "Key"]
+- ["Ps7CVarArg", "SubSequence"]
+- ["Ps7CVarArg", "Value"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "keys"]
+- ["Ps7CVarArg", "subscript"]
+- ["Ps10Collection", "Index"]
+- ["Ps10Collection", "Iterator"]
+- ["Ps10Collection", "Key"]
+- ["Ps10Collection", "SubSequence"]
+- ["Ps10Collection", "Value"]
+- ["Ps10Collection", "_Element"]
+- ["Ps10Collection", "init"]
+- ["Ps10Collection", "keys"]
+- ["Ps10Collection", "sorted"]
+- ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "Iterator"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "keys"]
+- ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "Element"]
+- ["Ps17CustomReflectable", "Index"]
+- ["Ps17CustomReflectable", "Iterator"]
+- ["Ps17CustomReflectable", "Key"]
+- ["Ps17CustomReflectable", "SubSequence"]
+- ["Ps17CustomReflectable", "Value"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "keys"]
+- ["Ps17CustomReflectable", "subscript"]
+- ["Ps23CustomStringConvertible", "Index"]
+- ["Ps23CustomStringConvertible", "Iterator"]
+- ["Ps23CustomStringConvertible", "Key"]
+- ["Ps23CustomStringConvertible", "SubSequence"]
+- ["Ps23CustomStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "keys"]
+- ["Ps23CustomStringConvertible", "subscript"]
+- ["Vs10Dictionary", "Index"]
+- ["Vs10Dictionary", "Iterator"]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "SubSequence"]
+- ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- ["Vs10Dictionary", "init"]
+- ["Vs10Dictionary", "keys"]
+- ["Vs10Dictionary", "subscript"]
+- ["Vs18DictionaryIterator", "Element"]
+- ["Ps9Equatable", "init"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- ["Ps30ExpressibleByDictionaryLiteral", "keys"]
+- ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C9KituraNet10HTTPServer", "deinit"]
+- ["Ps8Hashable", "init"]
+- ["C12HeliumLogger12HeliumLogger", "use"]
+- ["Ps9Indexable", "Index"]
+- ["Ps9Indexable", "Iterator"]
+- ["Ps9Indexable", "Key"]
+- ["Ps9Indexable", "SubSequence"]
+- ["Ps9Indexable", "Value"]
+- ["Ps9Indexable", "_Element"]
+- ["Ps9Indexable", "init"]
+- ["Ps9Indexable", "keys"]
+- ["Ps9Indexable", "sorted"]
+- ["Ps9Indexable", "subscript"]
+- ["Ps13IndexableBase", "Index"]
+- ["Ps13IndexableBase", "Iterator"]
+- ["Ps13IndexableBase", "Key"]
+- ["Ps13IndexableBase", "SubSequence"]
+- ["Ps13IndexableBase", "Value"]
+- ["Ps13IndexableBase", "_Element"]
+- ["Ps13IndexableBase", "init"]
+- ["Ps13IndexableBase", "keys"]
+- ["Ps13IndexableBase", "sorted"]
+- ["Ps13IndexableBase", "subscript"]
+- ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- ["Ps16IteratorProtocol", "Element"]
+- ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- ["C6Kitura6Kitura", "addHTTPServer"]
+- ["C6Kitura6Kitura", "run"]
+- ["Ps22LazyCollectionProtocol", "Iterator"]
+- ["Ps22LazyCollectionProtocol", "sorted"]
+- ["Vs17LazyMapCollection", "Iterator"]
+- ["Vs17LazyMapCollection", "deinit"]
+- ["Vs17LazyMapCollection", "sorted"]
+- ["Vs15LazyMapIterator", "Element"]
+- ["Ps20LazySequenceProtocol", "Iterator"]
+- ["Ps20LazySequenceProtocol", "sorted"]
+- ["P9LoggerAPI6Logger", "use"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["P7Stencil12Normalizable", "Index"]
+- ["P7Stencil12Normalizable", "Iterator"]
+- ["P7Stencil12Normalizable", "Key"]
+- ["P7Stencil12Normalizable", "SubSequence"]
+- ["P7Stencil12Normalizable", "Value"]
+- ["P7Stencil12Normalizable", "init"]
+- ["P7Stencil12Normalizable", "keys"]
+- ["P7Stencil12Normalizable", "subscript"]
+- ["Sq", "deinit"]
+- ["C6Kitura6Router", "deinit"]
+- ["C6Kitura6Router", "get"]
+- ["C6Kitura6Router", "init"]
+- ["C6Kitura6Router", "setDefault"]
+- ["P6Kitura16RouterMiddleware", "get"]
+- ["P6Kitura16RouterMiddleware", "init"]
+- ["P6Kitura16RouterMiddleware", "setDefault"]
+- ["C6Kitura13RouterRequest", "deinit"]
+- ["C6Kitura13RouterRequest", "parameters"]
+- ["C6Kitura14RouterResponse", "deinit"]
+- ["C6Kitura14RouterResponse", "render"]
+- ["Ps8Sequence", "Element"]
+- ["Ps8Sequence", "Index"]
+- ["Ps8Sequence", "Iterator"]
+- ["Ps8Sequence", "Key"]
+- ["Ps8Sequence", "SubSequence"]
+- ["Ps8Sequence", "Value"]
+- ["Ps8Sequence", "_Element"]
+- ["Ps8Sequence", "init"]
+- ["Ps8Sequence", "keys"]
+- ["Ps8Sequence", "sorted"]
+- ["Ps8Sequence", "subscript"]
+- ["P9KituraNet14ServerDelegate", "get"]
+- ["P9KituraNet14ServerDelegate", "init"]
+- ["P9KituraNet14ServerDelegate", "setDefault"]
+- ["Vs5Slice", "Index"]
+- ["Vs5Slice", "Iterator"]
+- ["Vs5Slice", "SubSequence"]
+- ["Vs5Slice", "_Element"]
+- ["C13KituraStencil21StencilTemplateEngine", "deinit"]
+- ["C13KituraStencil21StencilTemplateEngine", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["P20KituraTemplateEngine14TemplateEngine", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "Index"]
+- ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "keys"]
+- ["Ps21_ObjectiveCBridgeable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Vs18DictionaryIterator"
+- "Ps9Equatable"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C9KituraNet10HTTPServer"
+- "Ps8Hashable"
+- "C12HeliumLogger12HeliumLogger"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "Vs16IndexingIterator"
+- "Si"
+- "Ps16IteratorProtocol"
+- "P10SwiftyJSON17JSONSubscriptType"
+- "C6Kitura6Kitura"
+- "Ps22LazyCollectionProtocol"
+- "Vs17LazyMapCollection"
+- "Vs15LazyMapIterator"
+- "Ps20LazySequenceProtocol"
+- "P9LoggerAPI6Logger"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "P7Stencil12Normalizable"
+- "Sq"
+- "C6Kitura6Router"
+- "P6Kitura16RouterMiddleware"
+- "C6Kitura13RouterRequest"
+- "C6Kitura14RouterResponse"
+- "Ps8Sequence"
+- "P9KituraNet14ServerDelegate"
+- "Vs5Slice"
+- "C13KituraStencil21StencilTemplateEngine"
+- "SS"
+- "P20KituraTemplateEngine14TemplateEngine"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Lambert/Desktop/demo/DerivedData/demo1/Build/Products/Debug/Kitura.framework/Modules/Kitura.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Lambert/Desktop/demo/DerivedData/demo1/Build/Products/Debug/KituraNet.framework/Modules/KituraNet.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lambert/Desktop/demo/Packages/Kitura-net-1.6.1/Sources/CHTTPParser/include/module.modulemap"
+- "Packages/Kitura-net-1.6.1/Sources/CHTTPParser/include/utils.h"
+- "/Users/Lambert/Desktop/demo/Packages/CCurl-0.2.3/module.modulemap"
+- "Packages/Kitura-net-1.6.1/Sources/CHTTPParser/include/http_parser.h"
+- "Packages/Kitura-net-1.6.1/Sources/CHTTPParser/include/module.modulemap"
+- "/Users/Lambert/Desktop/demo/DerivedData/demo1/Build/Products/Debug/LoggerAPI.framework/Modules/LoggerAPI.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lambert/Desktop/demo/DerivedData/demo1/Build/Products/Debug/SSLService.framework/Modules/SSLService.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lambert/Desktop/demo/DerivedData/demo1/Build/Products/Debug/Socket.framework/Modules/Socket.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lambert/Desktop/demo/DerivedData/demo1/Build/Products/Debug/KituraTemplateEngine.framework/Modules/KituraTemplateEngine.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lambert/Desktop/demo/DerivedData/demo1/Build/Products/Debug/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lambert/Desktop/demo/DerivedData/demo1/Build/Products/Debug/HeliumLogger.framework/Modules/HeliumLogger.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lambert/Desktop/demo/DerivedData/demo1/Build/Products/Debug/KituraStencil.framework/Modules/KituraStencil.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lambert/Desktop/demo/DerivedData/demo1/Build/Products/Debug/PathKit.framework/Modules/PathKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/Lambert/Desktop/demo/DerivedData/demo1/Build/Products/Debug/Stencil.framework/Modules/Stencil.swiftmodule/x86_64.swiftmodule"
+interface-hash: "93b6eba81bac2d64681e489e19fc50ce"

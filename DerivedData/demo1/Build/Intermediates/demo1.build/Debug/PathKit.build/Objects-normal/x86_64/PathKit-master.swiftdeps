@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "3f4fb1b2d12af79fa3c8542dc25fca87"
+build_time: [541318682, 492597000]
+inputs:
+  "/Users/Lambert/Desktop/demo/Packages/PathKit-0.7.1/Sources/PathKit.swift": [541316995, 0]

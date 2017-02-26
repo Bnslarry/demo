@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "beb1898c7a5cfe310191fafaf931be0f"
+build_time: [541318681, 375597000]
+inputs:
+  "/Users/Lambert/Desktop/demo/Packages/SSLService-0.12.21/Sources/SSLService.swift": [541316962, 0]

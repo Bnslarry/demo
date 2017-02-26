@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "17ceef7974a8a8ba778bf93199b208ba"
+build_time: [541318679, 426216000]
+inputs:
+  "/Users/Lambert/Desktop/demo/Packages/HeliumLogger-1.6.0/Sources/HeliumLogger/HeliumLogger.swift": [541316976, 0]
+  "/Users/Lambert/Desktop/demo/Packages/HeliumLogger-1.6.0/Sources/HeliumLogger/HeliumStreamLogger.swift": [541316976, 0]

@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "8a705c947957167c1bd12aaaf18101a2"
+build_time: [541318537, 437991000]
+inputs:
+  "/Users/Lambert/Desktop/demo/Packages/SwiftyJSON-15.0.5/Source/LclJSONSerialization.swift": [541316968, 0]
+  "/Users/Lambert/Desktop/demo/Packages/SwiftyJSON-15.0.5/Source/SwiftyJSON.swift": [541316968, 0]

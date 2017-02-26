@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "bff00cc0594dedb1cdb913858f9db618"
+build_time: [541318679, 946562000]
+inputs:
+  "/Users/Lambert/Desktop/demo/Packages/Spectre-0.7.2/Sources/Case.swift": [541317000, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Spectre-0.7.2/Sources/Context.swift": [541317000, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Spectre-0.7.2/Sources/Expectation.swift": [541317000, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Spectre-0.7.2/Sources/Failure.swift": [541317000, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Spectre-0.7.2/Sources/Global.swift": [541317000, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Spectre-0.7.2/Sources/GlobalContext.swift": [541317000, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Spectre-0.7.2/Sources/Reporter.swift": [541317000, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Spectre-0.7.2/Sources/Reporters.swift": [541317000, 0]

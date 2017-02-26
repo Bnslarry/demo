@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "5dfb4c2e910d1bd74c4d88c6c1f907d7"
+build_time: [541318541, 479380000]
+inputs:
+  "/Users/Lambert/Desktop/demo/Packages/Socket-0.12.31/Sources/Socket.swift": [541316949, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Socket-0.12.31/Sources/SocketProtocols.swift": [541316949, 0]
+  "/Users/Lambert/Desktop/demo/Packages/Socket-0.12.31/Sources/SocketUtils.swift": [541316949, 0]

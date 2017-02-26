@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.61 clang-800.0.42.1)"
+options: "19df4732ab8b0e062602e9f73db3c975"
+build_time: [541387391, 153810000]
+inputs:
+  "/Users/Lambert/Desktop/demo/Sources/main.swift": [541387390, 0]
